@@ -38,8 +38,7 @@ all:
 h3. 3. Enable the module in settings.yml (under apps most likely)
 
 <pre>
-<code>
-enabled_modules:
+<code>enabled_modules:
     - plNavigation
 </code>
 </pre>
