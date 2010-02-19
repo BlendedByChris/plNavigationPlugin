@@ -12,31 +12,34 @@ To install the plugin just use the following in your /plugins directory:
 
 h3. 2. Populate your app.yml
 
-    <pre><code>
-    # default values
-    all:
-      plNavigation:
-        items:
-          products:
-            name: Products
-            route: products
-            params: []
-            children:
-              skateboards: 
-                name: Skateboards
-                route: product
-                params:
-                  slug: skateboards
-              rollerblades:
-                name: Rollerblades
-                route: product
-                params:
-                  slug: rollerblades
-    </code></pre>
+<pre>
+<code> # default values
+all:
+  plNavigation:
+    items:
+      products:
+        name: Products
+        route: products
+        params: []
+        children:
+          skateboards: 
+            name: Skateboards
+            route: product
+            params:
+              slug: skateboards
+          rollerblades:
+            name: Rollerblades
+            route: product
+            params:
+              slug: rollerblades
+</code>
+</pre>
 
 h3. 3. Enable the module in settings.yml (under apps most likely)
 
-    <pre><code>
-    enabled_modules:
-        - plNavigation
-    </code></pre>
+<pre>
+<code>
+enabled_modules:
+    - plNavigation
+</code>
+</pre>
